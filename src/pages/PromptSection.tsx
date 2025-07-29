@@ -34,7 +34,7 @@ const PromptSection = () => {
       const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer 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`,
+          'Authorization': `Bearer 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`,
           'Content-Type': 'application/json',
           'HTTP-Referer': 'http://localhost:5173',
           'X-Title': 'Portfolio Copilot Chat',
